@@ -1,10 +1,10 @@
 #[Info]
 site_name: YFei's Blog
-site_url: https://fjash.github.io
 site_author: YFei
+site_url: https://fjash.github.io
 #[UI]
 repo_name: 'fjash/YFei's_Blog'
-repo_url: 'https://fjash.github.io'
+repo_url: 'https://github.com/fjash/fjash.github.io'
 edit_uri: blob/main/docs
 
 theme:
