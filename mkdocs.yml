@@ -3,24 +3,48 @@ site_name: YFei's Blog
 site_url: https://fjash.github.io
 site_author: YFei
 #[UI]
+repo_name: 'fjash/YFei's_Blog'
+repo_url: 'https://fjash.github.io'
+edit_uri: blob/main/docs
+
 theme:
   name: material
   language: zh
+  favicon: _assets\iro\IroPatch_Pink.ico
   font:
-  text: LXGW WenKai Screen GB Screen # Share Tech
-  code: JetBrains Mono
-palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
+    text: LXGW WenKai Screen GB Screen # Share Tech
+    code: JetBrains Mono
+  palette: # 调色板
+      # Palette toggle for light mode
+      - scheme: default
+        toggle:
+          icon: material/brightness-7 
+          name: Switch to dark mode
 
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      # Palette toggle for dark mode
+      - scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+  icon:
+      # logo: material/pac-man
+      logo: octicons/paper-airplane-16
+      repo: fontawesome/brands/github-alt
+      admonition:
+        info: fontawesome/solid/anchor
+        note: fontawesome/solid/pen-nib
+        abstract: fontawesome/solid/list
+        tip: fontawesome/solid/lightbulb
+        success: fontawesome/solid/check
+        question: fontawesome/solid/circle-question
+        warning: fontawesome/solid/triangle-exclamation
+        failure: material/alien
+        danger: fontawesome/solid/virus
+        bug: fontawesome/solid/robot
+        example: fontawesome/solid/flask
+        quote: fontawesome/solid/link
+      # 用法 : !!! bug "name" 然后缩进 4 个空格接着内容
+
   features:
     - content.code.annotate
     - content.code.copy
@@ -33,3 +57,111 @@ palette:
     - search.highlight
     - search.share
     # - navigation.prune
+    custom_dir: overrides
+plugins:
+  - minify
+  - statistics:
+      words_per_minute: 200
+  - glightbox
+  - search:
+      lang:
+        - zh
+        - en
+      separator: '[\s\-\.]+'
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+      # exclude:
+      #   - index.md
+      #   - coming.md
+      #   - link.md
+      #   - tech_accu/index.md
+      #   - cour_note/index.md
+      #   - pape_read/index.md
+      #   - others/index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true # link for each title
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} # enable Unicode link
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      # smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  # - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - mdx_math
+
+copyright: 'Copyright &copy 2024 YFei'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fjash
+      name: Github
+
+extra_css:
+  - _css/extra.css
+  - _css/flink.css
+  # - https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css
+  # - https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-wen-kai-gb-screen@1.0.6/font.min.css
+  - https://jsd.cdn.zzko.cn/npm/katex@0.16.4/dist/katex.min.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  # - https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css
+extra_javascript:
+  - _js/extra.js
+  # - _js/mathjax.js
+  - _js/katex.js
+  # - https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js
+  - https://jsd.cdn.zzko.cn/npm/katex@0.16.4/dist/katex.min.js
+
+nav:
+  - "💠 封面": index.md
+  - "📚 技术积累":
+    - "编程语言":
+      - "C++": 
+      - "Python":
+      - "C":
+    - "人工智能":
+      - "机器学习":
+      - "深度学习":
+      - "常见模型":
+      - "代码框架":
+        - "Pytorch":
+  - "🥎 算法题练习":
+    - "基础算法":
+  - "📝 论文阅读":
+  - "📦 杂项专题":

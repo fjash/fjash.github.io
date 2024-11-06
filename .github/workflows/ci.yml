@@ -14,7 +14,7 @@ jobs:
       - name: Configure Git Credentials
         run: |
           git config user.name fjash
-          git config user.email 1525800496@163.com
+        # git config user.email 1525800496@163.com
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -27,3 +27,4 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
+      
