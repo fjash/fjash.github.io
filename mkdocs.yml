@@ -2,14 +2,14 @@ site_name: YFei's Blog
 site_author: YFei
 site_url: https://fjash.github.io
 
-repo_name: 'fjash/YFei's_Blog'
+repo_name: 'fjash/fjash.github.io'
 repo_url: 'https://github.com/fjash/fjash.github.io'
 edit_uri: blob/main/docs
 
 theme:
   name: material
   language: zh
-  favicon: _assets\iro\IroPatch_Pink.ico
+  favicon: _assets/iro/IroPatch_Pink.ico
   font:
     text: LXGW WenKai Screen GB Screen # Share Tech
     code: JetBrains Mono
@@ -56,7 +56,7 @@ theme:
     - search.highlight
     - search.share
     # - navigation.prune
-    custom_dir: overrides
+  custom_dir: overrides
 plugins:
   - minify
   - statistics:
