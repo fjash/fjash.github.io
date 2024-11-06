@@ -4,7 +4,7 @@
 
 1. 枚举所有可能的两个不同的数字之和，与 target 做比较。
 2. 哈希表查询  
- ```cpp
+```cpp
     // 方法一:
     class Solution {
     public:
@@ -22,7 +22,7 @@
         }
     };
     // 方法 2: 
-    ```
+```
 
 ```cpp
     class Solution {
@@ -44,7 +44,8 @@
             return {};
         }
     };
-    ```
+```
+
 > 用到了 unordered_map 数据结构做无序哈希表。
     
 ## [字母异位词分组](https://leetcode.cn/problems/group-anagrams/?envType=study-plan-v2&envId=top-100-liked)
