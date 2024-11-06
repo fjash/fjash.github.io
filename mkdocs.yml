@@ -37,7 +37,6 @@ theme:
     - search.highlight
     - search.share
     # - navigation.prune
-  custom_dir: overrides
 
 
 copyright: 'Copyright &copy 2024 YFei'
