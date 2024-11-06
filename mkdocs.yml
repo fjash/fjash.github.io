@@ -62,6 +62,6 @@ nav:
   #     - "代码框架":
   #       - "Pytorch":
   - "🥎 算法题练习":
-    - "Leetcode": docs\mds\Algorithnm\Leetcode\Leetcode_1.md
+    - "Leetcode": mds\Algorithnm\Leetcode\Leetcode_1.md
   # - "📝 论文阅读":
   # - "📦 杂项专题":
