@@ -121,7 +121,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - mdx_math
+  # - mdx_math
 
 copyright: 'Copyright &copy 2024 YFei'
 
