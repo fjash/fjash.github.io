@@ -70,7 +70,10 @@ extra:
       name: Github
 
 plugins:
-  # - glightbox
+  - glightbox
+  - statistics:
+    words_per_minute: 200
+
   - search:
       lang:
         - zh
@@ -135,8 +138,8 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - pymdownx.arithmatex
 
+  
 
 nav:
   - "💠 封面": index.md

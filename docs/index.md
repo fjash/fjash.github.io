@@ -1,6 +1,7 @@
 # 开始 Record
 > 功能测试 
 
+[toc]
 1. admonition
 > https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 !!! info "测试"
@@ -42,24 +43,43 @@
 6. 删除线
    ~~删除~~
 7. latex 渲染
-   $d_1(I_1,I_2)=\sum_{p}|I_1^{p}-I_2^{p}|$
-
+!!!  note "Latex 测试"
+    Here is an inline math formula: $E=mc^2$
+    And here is a block math formula:
+    $$
+    \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+    $$
 8. 生成目录 
-    [toc]
+
 9.  选项卡式的内容展示
 !!! info ""
     === "选项一"
        内容一
+
     === "选项二"
        内容二
+
     === "选项三"
        内容三
-1.  图片
+10.  图片
   ![](1.png)
 
-1.   emoji 
+11.   emoji 
     :smile:
 
-2.   创建带有复选框的内容展示
+12.   创建带有复选框的内容展示
     - [x] 把博客大致内容做好
     - [ ] 弄一些模板，快速开始
+
+[^2]: 这个是脚注二
+13. 强调效果
+    *h*
+    **hh**
+    ***hhh***
+14. 缩写提示:
+    *[HTML]: HyperText Markup Language
+    *[CSS]: Cascading Style Sheets
+    *[JS]: JavaScript
+
+![测试](2.png)
+[^1]: 这个是脚注一

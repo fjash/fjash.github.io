@@ -28,10 +28,10 @@ tags:
     
         }
     };
-    // 方法 2: 
 ```
 
 ```cpp
+    // 方法 2: 
     class Solution {
     public:
         vector<int> twoSum(vector<int>& nums, int target) {
