@@ -58,6 +58,7 @@ theme:
     - search.highlight
     - search.share
     # - navigation.prune
+  custom_dir: overrides
     
 
 
