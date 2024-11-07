@@ -71,6 +71,7 @@ extra:
       name: Github
 
 plugins:
+  - minify
   - glightbox
   - statistics:
       words_per_minute: 200
@@ -168,7 +169,9 @@ nav:
   #     - "常见模型":
   #     - "代码框架":
   #       - "Pytorch":
-  - "🥎 算法题练习": mds/Algorithnm/Leetcode/Leetcode_1.md
+  - "🥎 算法题练习": 
+    - "Leetcode": mds/Algorithnm/Leetcode/Leetcode_1.md
+    - "蓝桥": mds/Algorithnm/LQ/快速幂.md
   - "Tags": tags.md
   # - "📝 论文阅读":
   # - "📦 杂项专题":
