@@ -1,13 +1,13 @@
 # 开始 Record
 > 功能测试 
 
-[toc]
 1. admonition
-> https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+> [Material for mkdocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 !!! info "测试"
     - hhh
     - www
     - xxx
+  
 2. 可折叠的代码块
 
 ???+ summary "课程介绍"
@@ -24,8 +24,10 @@
         - 面向对象编程
 
     希望你能喜欢这个课程！
+
 > ???+ 代表一个展开的折叠快, ???- 代表一个折叠的折叠快
 3. 内嵌代码 and 代码高亮
+
 ```c++
     #include<>
     int main()
@@ -34,9 +36,9 @@
     }
 ```
 
-1. 删除线
+4. 删除线
    ~~删除~~
-2. latex 渲染
+5. latex 渲染
    
 !!! note "Latex 测试"
     Here is an inline math formula: $E=mc^2$
