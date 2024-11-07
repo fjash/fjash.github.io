@@ -73,7 +73,6 @@ plugins:
   - glightbox
   - statistics:
     words_per_minute: 200
-
   - search:
       lang:
         - zh
