@@ -93,7 +93,7 @@ plugins:
   #     exclude:
   #       - index.md
   - tags:
-      tags_file: tag.md  #分类标签
+      tags_file: tags.md  #分类标签
 
 markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
   - toc:
