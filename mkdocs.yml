@@ -152,5 +152,6 @@ nav:
   #     - "代码框架":
   #       - "Pytorch":
   - "🥎 算法题练习": mds/Algorithnm/Leetcode/Leetcode_1.md
+  - "Tags": tags.md
   # - "📝 论文阅读":
   # - "📦 杂项专题":
