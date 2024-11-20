@@ -64,7 +64,6 @@ li {
 
 .md-nav__link {
     font-size: small;
-    color: #00008B; /* 深蓝色 */
 }
 
 .md-typeset .admonition,
@@ -73,7 +72,7 @@ li {
 }
 
 .md-tabs {
-    background-color: var(--md-primary-fg-color--light);
+    background-color: var(--md-code-hl-keyword-color);
 }
 
 .md-tabs__link {
