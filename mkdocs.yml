@@ -157,7 +157,7 @@ extra_javascript:
   - https://jsd.cdn.zzko.cn/npm/katex@0.16.4/dist/katex.min.js  
 
 nav:
-  - "💠 封面": index.md
+  - "🎯 封面": index.md
   # - "📚 技术积累":
   #   - "编程语言":
   #     - "C++": 
@@ -169,9 +169,10 @@ nav:
   #     - "常见模型":
   #     - "代码框架":
   #       - "Pytorch":
-  - "🥎 算法题练习": 
+  - "💡 算法题练习": 
     - "Leetcode": mds/Algorithnm/Leetcode/Leetcode_1.md
     - "蓝桥": mds/Algorithnm/LQ/快速幂.md
-  - "Tags": tags.md
+  - "🧲 Tags": tags.md
   # - "📝 论文阅读":
   # - "📦 杂项专题":
+  # - "🛹 项目记录":
