@@ -72,7 +72,7 @@ li {
 }
 
 .md-tabs {
-    background-color: var(--md-code-hl-keyword-color);
+    background-color: var(--md-primary-fg-color--light);
 }
 
 .md-tabs__link {
