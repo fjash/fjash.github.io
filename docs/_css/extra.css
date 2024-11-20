@@ -64,6 +64,7 @@ li {
 
 .md-nav__link {
     font-size: small;
+    color: #00008B; /* 深蓝色 */
 }
 
 .md-typeset .admonition,
