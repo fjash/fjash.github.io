@@ -12,7 +12,7 @@ theme:
   favicon: _assets\iro\kenan.png
   icon:
     # logo: material/pac-man
-    logo: octicons/paper-airplane-16
+    logo: octicons/pencil-16
     repo: fontawesome/brands/github-alt
     admonition:
       info: fontawesome/solid/anchor
