@@ -9,7 +9,7 @@ edit_uri: blob/main/docs
 theme:
   name: material
   language: zh
-  favicon: _assets/iro/IroPatch_Pink.ico
+  favicon: _assets\iro\kenan.png
   icon:
     # logo: material/pac-man
     logo: octicons/paper-airplane-16
@@ -32,8 +32,8 @@ theme:
     code: JetBrains Mono
   palette:
     scheme: default
-    primary: brown
-    accent: deep orange
+    primary: teal
+    accent: pink
   # palette: # 调色板
   #     # Palette toggle for light mode
   #     - scheme: default
