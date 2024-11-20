@@ -32,7 +32,7 @@ theme:
     code: JetBrains Mono
   palette:
     scheme: default
-    primary: whrite
+    primary: brown
     accent: deep orange
   # palette: # 调色板
   #     # Palette toggle for light mode
